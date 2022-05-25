@@ -45,3 +45,16 @@ docker-compose-exercise
 ```
 
 It is now safe to use git from the main directory (docker-compose-exercise) as if you didn't have sub-folders containing .git folders are they will be ignored (unless you cd into the subfolder and use the git commands from within that folder).
+
+#### Amend the .gitmodules file
+
+It is recommended to change the path of each submodule to a relative path, make them look like this:
+
+```
+[submodule "client"]
+	path = client
+	url = ../Journal_Project_Frontend.git
+[submodule "server"]
+	path = server
+	url = ../Futureproof-Lap1-GroupProject-Journal_Project_Backend.git
+```
