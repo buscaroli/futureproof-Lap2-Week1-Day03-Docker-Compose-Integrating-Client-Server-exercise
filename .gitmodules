@@ -1,0 +1,6 @@
+[submodule "client"]
+	path = client
+	url = git@github.com:buscaroli/Journal_Project_Frontend.git
+[submodule "server"]
+	path = server
+	url = git@github.com:buscaroli/Futureproof-Lap1-GroupProject-Journal_Project_Backend.git
