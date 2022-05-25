@@ -58,3 +58,20 @@ It is recommended to change the path of each submodule to a relative path, make 
 	path = server
 	url = ../Futureproof-Lap1-GroupProject-Journal_Project_Backend.git
 ```
+
+## Create a docker-compose.yaml file
+
+We originally used python's http.server to run the clinet, I have now installed npm's http-server and modified the package.json in the client/ folder to reflect this. the reason I did this is that not everybody has python installed in their computer, this way http-server will be installed with the rest of the dependencies and the app will be available at localhost:8080.
+
+## How to run
+
+I have given this repo a very long name, apologies for that.
+In order to run it clone it and then follows these steps:
+
+```bash
+  cd futureproof-Lap2-Week1-Day03-Docker-Compose-Integrating-Client-Server-exercise
+  docker compose up
+
+```
+
+Now you can open your browser to the address `localhost:8080`.
